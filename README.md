@@ -14,7 +14,7 @@ Redis, using RedisLab Cloud : <br>
 <br> API Documentation : 
 <br> GET /generate-token, for generating token
 <br> GET /user , for getting all user
-<br> GET /user/account-number/<Account Number> , for find user by Account Number
+<br> GET /user/account-number/[Account Number>] , for find user by Account Number
 <br> GET /user/identity-number/<Idenntity Number>, for find user by Identity Number
 <br> PUT /user/<id> , for updating user data
 <br> DELETE /user/<id>, for deleting user
