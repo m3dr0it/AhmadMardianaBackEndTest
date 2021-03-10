@@ -8,6 +8,10 @@ const {syncMongoAndRedis} = require('./services/cache')
 
 app.use(express.json())
 app.use(express.urlencoded())
+app.use(express.static('views'))
+app.get('/tes',(req,res,next) => {
+  res.render('index')
+})
 app.use('/user',validateToken,userRouter)
 app.use('/generate-token',generateToken)
 
