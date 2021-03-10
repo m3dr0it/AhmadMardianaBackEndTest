@@ -10,7 +10,7 @@ Redis, using RedisLab Cloud : <br>
   pass : dyhVbwu9YI3a7JoLggE1oPNMpp9S3yxe <br>
 note : redis only as replicate mongoDb, not caching query
 <br>
-<br> ==============================================================================
+<br> =================================================================
 <br> API Documentation : 
 <br> GET /generate-token, for generating token
 <br> GET /user , for getting all user
@@ -19,4 +19,4 @@ note : redis only as replicate mongoDb, not caching query
 <br> GET /user/identity-number/[Idenntity Number], for find user by Identity Number
 <br> PUT /user/[id] , for updating user data
 <br> DELETE /user/[id], for deleting user
-<br> ================================================================================
+<br> ================================================================
