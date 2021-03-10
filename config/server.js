@@ -12,9 +12,9 @@ mongoose.connect(mongoRemoteServer,{
 })
 
 let redisClient = redis.createClient({
-    host: 'redis-12149.c246.us-east-1-4.ec2.cloud.redislabs.com',
-    port:12149,
-    password:"dyhVbwu9YI3a7JoLggE1oPNMpp9S3yxe"
+    host: config.redis_endpoint,
+    port: config.redis_port,
+    password: config.redis_pass
 });
 
 redisClient.ping((err,reply) => {
