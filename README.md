@@ -9,7 +9,6 @@ Redis, using RedisLab Cloud : <br>
   endpoint : redis-12149.c246.us-east-1-4.ec2.cloud.redislabs.com:12149 <br>
   pass : dyhVbwu9YI3a7JoLggE1oPNMpp9S3yxe <br>
 note : redis only as replicate mongoDb, not caching query
-
 <br>
 <br> ==============================================================================
 <br> API Documentation : 
