@@ -7,7 +7,7 @@ MongoDB, using MongoDb Cloud : <br>
 <br>
 <br>
 Redis, using RedisLab Cloud : <br>
-  redis-12149.c246.us-east-1-4.ec2.cloud.redislabs.com:12149 <br>
+  end=point:redis-12149.c246.us-east-1-4.ec2.cloud.redislabs.com:12149 <br>
   pass:dyhVbwu9YI3a7JoLggE1oPNMpp9S3yxe <br>
 <br>
 <br> ==============================================================================
